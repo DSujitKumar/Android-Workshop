@@ -1,0 +1,320 @@
+html{
+		background-image: url("http://www.stei.edu.sg/wp-content/uploads/2016/12/Career-Opportunities.jpg");
+-webkit-background-size: cover;
+	background-repeat: inherit;
+	background-position: top top;
+
+	}
+
+		#img1{
+			position: absolute;
+			opacity: 0;
+			-webkit-animation: bounceInUp 3s;
+		}
+		#img2{
+			position: absolute;
+			
+			opacity: 0;
+		-webkit-animation: bounceInDown 3s;
+		}
+		#img3
+		{
+			position: absolute;
+			
+			opacity: 0;
+			-webkit-animation: bounceInUp 3s;
+		}
+		#img4
+		{
+			position: absolute;
+			
+			opacity: 0;
+			-webkit-animation: bounceInDown 3s;
+		}
+		#img5
+		{
+			position: absolute;
+			
+			opacity: 0;
+			-webkit-animation: bounceInUp 3s;
+		}
+		#img6
+		{
+			position: absolute;
+			
+			opacity: 0;
+			-webkit-animation: bounceInDown 3s;
+		}
+		#img7{
+			position: absolute;
+		
+			opacity: 0;
+			-webkit-animation: bounceInUp 3s;
+		}
+		#img8{
+			position: absolute;
+			
+			opacity: 0;
+			-webkit-animation: bounceInDown 3s;
+		}
+		@keyframes bounceInUp {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+/*START OF FORM*/
+	.signupPage{
+		position: absolute;
+		top: 5%;
+		left:10%;
+		right: 10%;
+		height: 600px;
+		width: 80%;
+		background-color: rgba(1, 1, 2, 0.9);
+		border :5px solid #7f7874;
+		border-radius: 20px;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		color: white;
+		font-size: 20px;
+	
+	}
+	.signupPage img
+	{
+		height: 50px;
+		width: 50px;
+		padding-top: 10px;
+	}
+	.signupPage input {  
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 80%;
+  height:80%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-weight: 300;
+  text-indent: 0px;
+  -webkit-animation: rotateInDownLeft 1s;
+
+  }
+  .signupPage input:hover{
+  text-indent: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.signupPage input:focus{
+  text-indent: 0px;
+  width: 85%;
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.signupPage input::placeholder {
+		color: #f8f8f8;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+	}
+
+.signupPage input:focus::placeholder {
+		color: rgba(255, 255, 255, 0);
+	}
+	#myfile{
+		outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 60%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-weight: 300;
+  text-indent: 0px;
+  -webkit-animation: rotateInDownLeft 1s;
+
+	}
+	.signupPage textarea {  
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px auto 10px auto;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-weight: 300;
+  text-indent: 0px;
+  -webkit-animation: rotateInDownLeft 1s;
+
+  }
+  .signupPage textarea:hover{
+  text-indent: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.signupPage textarea:focus{
+  text-indent: 0px;
+  width: 85%;
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.signupPage textarea::placeholder {
+		color: #f8f8f8;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+	}
+
+.signupPage textarea:focus::placeholder {
+		color: rgba(255, 255, 255, 0);
+	}
+	.signupPage button {
+  -webkit-appearance: none;
+  
+  appearance: none;
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 3px;
+  max-width: 100px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+ 
+  background-color: #005ce6;
+  border-color: #10707f;
+  border-radius: 13px;
+  width: 90%;
+  height: 40px;
+  -webkit-animation: rotateInDownRight 1.5s;
+
+}
+#resetbtn{
+	-webkit-appearance: none;
+  
+  appearance: none;
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 3px;
+  max-width: 100px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+ margin-right: 20px;
+  background-color: #005ce6;
+  border-color: #10707f;
+  border-radius: 13px;
+  width: 90%;
+  height: 40px;
+  -webkit-animation: rotateInDownLeft 1.5s;
+
+
+}
+#resetbtn:hover {
+background-color: #0066ff;
+  
+  box-shadow: 2px 3px 10px 2px #9d9692;
+  text-indent: 0px;
+}
+.signupPage button:hover {
+  background-color: #0066ff;
+ 
+  box-shadow: 2px 3px 10px 2px #9d9692;
+}
+	.points{
+		position: absolute;
+		top: 5%;
+		left: 5%;
+		height: 600px;
+		width: 700px;
+		background-color: rgba(10, 1, 20, 0.9);
+		border :5px solid #7f7874; 
+		border-radius: 20px;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		opacity: 0;
+	}
+	.points h1{
+		color: #1200ff;
+		font-size: 40px;
+		font-family: Showcard Gothic;
+	}
+	.points span{
+		color: red;
+		font-size: 30px;
+		font-family: Snap ITC;
+		padding: 5px 0px 5px 50px;
+		opacity: .8;
+	}
+	.points img{
+		position: absolute;
+		bottom: 10px;
+		right: 20px;
+	}
+  

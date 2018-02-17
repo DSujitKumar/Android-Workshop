@@ -1,0 +1,605 @@
+* {margin: 0; padding: 0;}
+body{
+	height: 4200px;
+	overflow-x: hidden;
+	 
+}
+.mainHeader{
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	background-color: #222c5f;
+}
+.mainHeader h1{
+	color: white;
+	position: absolute;
+	margin-top:2.1%;
+	margin-left: 160px;
+	font-size: 40px;
+}
+.mainBackground{
+	 background: linear-gradient(to right, #820d1e,#43168d,#5a6012); 
+	height: 590px;
+	width: 100%;
+	position: absolute;
+	margin-top: 100px;
+
+}
+#innerOrio{
+	margin-top: 30px ;
+	margin-left: 50px;
+			float: left;
+			-webkit-animation:rotate 20s infinite;
+			}
+
+#innerAndroid{
+	margin-top: 30px ;
+	right: 50px;
+			float: left;
+			position: absolute;
+			-webkit-animation:rotate 20s infinite;
+			}
+.header1{
+	float: left;
+	font-size: 75px;
+	color: #c2f2fb;
+	text-shadow: 2px 2px 2px #000, 3px 3px 5px blue;
+	margin-top: 30px; margin-left: 70px;
+	font-family: Matura MT Script Capitals;
+	position: absolute;
+	z-index: 1;
+	-webkit-animation:multiColor 60s infinite;
+}
+@keyframes multiColor{
+	0%{
+		color: #f23d5f;
+	}
+	10%{
+		color: #f23db0;
+	}
+	20%{
+		color: #8e3df2;
+	}
+	30%{
+		color: #3d45f2;
+	}
+	30%{
+		color: #3dc1f2;
+	}
+	40%{
+		color: #3df2ce;
+	}
+	50%{
+		color: #3df296;
+	}
+	60%{
+		color: #3df24e;
+	}
+	70%{
+		color: #d2f23d;
+	}
+	80%{
+		color: #f2ec3d;
+	}
+	90%{
+		color: #f2923d;
+	}
+	100%{
+		color: #f25b3d;
+	}
+}
+#organisedBY{
+	top: 350px;
+	margin-left: 33%;
+	color: #b0ddef;
+	position: absolute;
+	font-size: 40px;
+}
+.mainWords-before{
+	opacity: 0;
+}
+.mainWords-after{
+	height: 150px;
+	max-width: 100%;
+	position: absolute;
+	margin-top: 710px;
+	text-align: center;
+	font-size: 60px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 30px;
+	color: #114bcf;
+	opacity: 1;
+	z-index: 1;
+	-webkit-animation:lightSpeedIn 1.5s 1;
+}
+.mainContents-before{
+	opacity: 0;
+}
+.mainContents-after{
+	font-size: 25px;
+	padding-right: 23%;
+	padding-left: 23%;
+	padding-top: 10px;
+	text-align: justify;
+		position: absolute;
+		margin-top: 880px;
+		opacity: 1;
+		z-index: 1;
+		//font-weight: bold;
+-webkit-animation:lightSpeedIn 1.5s 1;
+}
+@keyframes lightSpeedIn {
+   from {
+    opacity: 0;
+    transform: translate3d(0, 60%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+/* Slider customizatation*/
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px grey; 
+    background: linear-gradient(#820d1e,#43168d,#5a6012); 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0aed50; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ebf317; 
+
+}
+.introduction-before{
+	opacity: 0;
+}
+.introduction-after{
+	
+	height: 400px;
+	width: 45%;
+	overflow: hidden;
+	position: absolute;
+	left: 5%;
+	top: 1170px;
+	z-index: 2;
+	opacity: 1;
+-webkit-animation:fadeInLeftBig 1.5s 1;
+
+}
+@keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    transform: translate3d(-80px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.introduction-after h2{
+	font-size: 35px;
+	font-family: Impact;
+	color: #0e4bd4;
+	letter-spacing: 1px;
+	z-index: 2;
+}
+.introduction-after p{
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+	
+	//font-weight: bold;
+	z-index: 2;
+
+	
+}
+.introductionImg-before{
+	opacity: 0;
+}
+.introductionImg-after{
+height: 450px;
+	width: 50%;
+	overflow: hidden;
+	position: absolute;
+	background-color: #1d47e1;
+	right: 0%;
+	top: 1100px;
+	z-index: 2;
+	opacity: 1;
+	box-shadow: 28px -5px 33px 6px rgba(184,178,184,0.91);
+-webkit-animation:fadeInRight 1.5s 1;
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(20%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.aboutWorkshop-before{
+	opacity: 0;
+}
+.aboutWorkshop-after{
+	height: 450px;
+	width: 50%;
+	overflow: hidden;
+	position: absolute;
+	background-color: #2acd0f;
+	left: 0%;
+	top: 1550px;
+	z-index: 2;
+	opacity: 1;
+	box-shadow: -22px -7px 33px 0px rgba(184,178,184,0.91);
+-webkit-animation:fadeInLeftBig 1.5s 1;
+}
+.aboutWorkshopWords-before{
+	opacity: 0;
+}
+.aboutWorkshopWords{
+height: 400px;
+	width: 45%;
+	overflow: hidden;
+	position: absolute;
+	left: 55%;
+	top: 1610px;
+	z-index: 2;
+	opacity: 1;
+-webkit-animation:fadeInRight 1.5s 1;
+}
+#aboutWorkshopWords h2{
+	font-size: 35px;
+	font-family: Impact;
+	color: #0e4bd4;
+	letter-spacing: 1px;
+	z-index: 2;
+}
+#aboutWorkshopWords p{
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+	
+	//font-weight: bold;
+	z-index: 2;
+
+	
+}
+.registration-before{
+	opacity: 0;
+}
+.registration{
+
+	height: 400px;
+	width: 45%;
+	overflow: hidden;
+	position: absolute;
+	left: 5%;
+	top: 2570px;
+	z-index: 2;
+	opacity: 1;
+-webkit-animation:fadeInLeftBig 1.5s 1;
+}
+#registration h2{
+font-size: 35px;
+	font-family: Impact;
+	color: #0e4bd4;
+	letter-spacing: 1px;
+	z-index: 2;
+}
+#registration p{
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+	
+	//font-weight: bold;
+	z-index: 2;
+
+	
+}
+.registrationImg-before{
+	opacity: 0;
+}
+.registrationImg{
+	height: 450px;
+	width: 50%;
+	overflow: hidden;
+	position: absolute;
+	background-color: #1d47e1;
+	right: 0%;
+	top: 2498px;
+	z-index: 2;
+	opacity: 1;
+	box-shadow: 28px -5px 33px 6px rgba(184,178,184,0.91);
+-webkit-animation:fadeInRight 1.5s 1;
+}
+.cover-in-workshop{
+	position: absolute;
+	background-image: url("http://www.i3indyatechnologies.com/img/android-application-development.jpg");
+	background-size: cover;
+	height: 450px;
+	width: 100%;
+	top: 2020px;
+	border-radius: 10px;
+}
+#cover-in-workshop h1{
+	position: absolute;
+	z-index: 2;
+	font-size: 70px;
+	margin-top: 40px;
+	margin-left:320px;
+	opacity: 1;
+	color: white;
+	border-radius: 30px;
+}
+#cover-in-workshop span{
+	position: absolute;
+	z-index: 2;
+	color: white;
+	font-size: 30px;
+	padding-top: 160px;
+	margin-left: 8%;
+	margin-right: 5%;
+	
+	font-weight: bold;
+		opacity: 1;
+
+}
+.topics h2{
+	position: absolute;
+	border-radius: 2px solid red;
+	border: 2px solid red;
+	border-radius: 10px;
+	font-size: 25px;
+	color: white;
+	width: auto;
+	bottom: 20px;
+	right: 20px;
+	background: linear-gradient(to right,red,blue,green);
+	box-shadow: -2px 2px 26px 5px rgba(229,223,235,1);
+}
+.topics h2:hover{
+	cursor: pointer;
+}
+.CollegeDetails-before{
+	opacity: 0;
+}
+.CollegeDetails{
+	position: absolute;
+	height: 550px;
+	width: 100%;
+	top: 2998px;
+	background-image: url(http://www.rec.ac.in/images/banner.jpg);
+	background-size: cover;
+	box-shadow: 6px -3px 111px 27px rgba(184,178,184,0.91);
+	background-repeat: no-repeat;
+	-webkit-animation:lightSpeedIn 0.8s 1;
+}
+#CollegeDetails h1{
+	position: absolute;
+	z-index: 2;
+	color: black;
+	font-size: 70px;
+	margin-top: 40px;
+	margin-left:150px;
+	opacity: 1;
+	background: linear-gradient(to right,#1de1cc,#1de175,#56b70e);
+	border-radius: 30px;
+}
+#CollegeDetails p{
+	position: absolute;
+	z-index: 2;
+	color: #e8ff9a;
+	font-size: 30px;
+	padding-top: 160px;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	font-weight: bold;
+		opacity: 1;
+
+}
+
+.address-view-before{
+	opacity: 0;
+}
+.address-view{
+	height: 450px;
+	width: 50%;
+	overflow: hidden;
+	position: absolute;
+	background-color: #2acd0f;
+	left: 0%;
+	top: 650px;
+	z-index: 2;
+	opacity: 1;
+	box-shadow: -22px -7px 33px 0px rgba(184,178,184,0.91);
+-webkit-animation:fadeInLeftBig 1.5s 1;
+}
+.address-details-before{
+	opacity: 0;
+}
+.address-details{
+height: 400px;
+	width: 45%;
+	overflow: hidden;
+	position: absolute;
+	left: 55%;
+	top: 700px;
+	z-index: 2;
+	opacity: 1;
+-webkit-animation:fadeInRight 1.5s 1;
+}
+#address-details h2{
+	font-size: 35px;
+	padding-left: 29px;
+	font-family: Impact;
+	color: #0e4bd4;
+	letter-spacing: 1px;
+	position: absolute;
+	z-index: 2;
+}
+#address-details p{
+	position: absolute;
+	padding-top: 30px;
+	padding-right: 0px;
+	font-size: 25px;
+	color: black;
+	//font-weight: bold;
+	z-index: 2;
+
+	
+}
+
+#dimg{
+	position: absolute;
+	height: 500px;
+	width: 700px;
+	right: 0%;
+	top: 700px;
+	z-index: 0;
+	opacity: 0;
+}
+#iimg{
+	position: absolute;
+	height: 500px;
+	width: 600px;
+	left: 0%;
+	top: 1000px;
+	z-index: 0;
+	opacity: 0;
+}
+#bookSeat{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background-image: url("http://www.chiropracticintegration.com/wp-content/uploads/2017/10/2014-seminar-button.png");
+	background-size: cover;
+	height: 110px;
+	width: 350px;
+	z-index: 100;
+	
+}
+.animate-before{
+	-webkit-animation:fadeOut 1.5s 1;
+	opacity: 0;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    border-radius: 30px;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 68px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    
+    background-color: #5cb85c;
+    color: black;
+}
+
+.modal-body {padding: 20px 16px;overflow-y: scroll; max-height: 92%;}
+.modal-body h3{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.modal-body p{
+    padding-left: 38px;
+    font-size: 20px;
+}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+#contactus{
+	position: absolute;
+	top: 4150px;
+	height: 50px;
+	width: 100%;
+	background-color: red;
+	
+
+}
+#contactus p{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}

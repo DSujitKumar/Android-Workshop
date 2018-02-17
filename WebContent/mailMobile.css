@@ -1,0 +1,50 @@
+	* {margin: 0; padding: 0;}
+	body{
+		background-color: #96d2f8;
+	}
+		.mainDiv{
+			position: absolute;
+			height: 500px ;
+			width: 80%;
+			top: 140px;
+			left: 10%;
+			right: 10%;
+			background-color: white;
+			border-radius: 30px;
+			box-shadow: 1px 4px 32px -7px rgba(128,128,128,1),0px -35px 0px -6px rgba(255,255,255,1),1px -35px 32px -7px rgba(128,128,128,1),0px -70px 0px -12px rgba(255,255,255,0.8);
+			overflow: hidden; 
+		}
+		h1{
+			text-align: center;
+			margin-top: 50px;
+			font-size: 500%;
+			font-family: Matura MT Script Capitals;
+			color: #4d4a4a;
+			text-shadow:2px 2px 5px #1184cd;
+
+		}
+		img{
+			position: absolute;
+			bottom: 0px;
+		}
+		h2{
+			text-align: center;
+			margin-top: 50px;
+			font-family: MV Boli;
+			font-weight: bold;
+			font-size: 30px;
+		}
+		.back{
+			position: absolute;
+			left: 38%;
+			margin-top: 20px;
+			min-height: 30px;
+			font-size: 20px;
+			border-radius: 20px;
+			background-color:red;
+			width: 150px;
+			padding: 5px 20px 5px 20px;
+			color: white;
+			max-height: 30px;
+
+		}
